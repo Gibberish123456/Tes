@@ -5,74 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple Vision Pro</title>
     <style>
-        body {
+        body, html {
+            height: 100%;
             margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            color: #333;
-            background-color: white;
-            color: black;
-        }
-         h1, h2, h3, h4, h5, h6, p, a, span, div, li, ul, ol, table, th, td {
-            color: black;
           }
-        header {
-            background: #000;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .hero {
-            background: url('https://www.apple.com/v/vision-pro/d/images/overview/hero/hero_static__e0xz2flvq0ii_large.jpg') no-repeat center center;
+      
+          .bg {
+            /* The image used */
+            background-image: url('https://www.apple.com/newsroom/images/product/vision/standard/Apple_vision-pro_availabilty_hero_230605_big.jpg.large.jpg');
+      
+            /* Full height */
+            height: 100%; 
+      
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
             background-size: cover;
-            height: 600px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
-            text-align: center;
-        }
-        .hero h1 {
-            font-size: 4em;
-            margin: 0;
-        }
-        .content {
-            padding: 50px 0;
-        }
-        .content h2 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
-        .content p {
-            font-size: 1.2em;
-            line-height: 1.6;
-        }
-        footer {
-            background: #f8f8f8;
-            padding: 20px;
-            text-align: center;
-            border-top: 1px solid #e7e7e7;
-        }
-        img {
-            width: 100%;
-            height: auto;
-        }
+          }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div  class="bg">
         <div class="content">
             <div class="image-container">
                 <img src="./image.png" alt="Vision Pro" style="max-width: 100%; height: auto;">
             </div>
-            <h2>Revolutionary Technology</h2>
-            <p>The Apple Vision Pro introduces groundbreaking features that redefine how you interact with technology. Experience augmented reality like never before with our cutting-edge design and intuitive interface.</p>
-            <h2>Seamless Integration</h2>
-            <p>Integrate seamlessly with your Apple ecosystem. The Vision Pro works effortlessly with your iPhone, iPad, and Mac, bringing a new dimension to your digital experience.</p>
         </div>
     </div>
 </body>
